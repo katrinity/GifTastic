@@ -54,7 +54,7 @@ To pause and play the gifs by clicking on the Gifs: $(document).on("click", ".An
                 AnimalImage.attr("data-still", staticSrc);
                 AnimalImage.attr("data-animate", defaultAnimatedSrc);
                 AnimalImage.append(p);
-                AnimalImage.append(AnimalImage);
+                AnimalDiv.append(AnimalImage, p);
                 $("#gifArea").prepend(AnimalDiv);
 
             }

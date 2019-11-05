@@ -43,7 +43,7 @@ $(document).ready(function () {
                 AnimalImage.attr("data-still", staticSrc);
                 AnimalImage.attr("data-animate", defaultAnimatedSrc);
                 AnimalImage.append(p);
-                AnimalImage.append(AnimalImage);
+                AnimalDiv.append(AnimalImage, p);
                 $("#gifArea").prepend(AnimalDiv);
 
             }
