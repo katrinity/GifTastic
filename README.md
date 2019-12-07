@@ -61,3 +61,4 @@ To pause and play the gifs by clicking on the Gifs: $(document).on("click", ".An
         });
     }
 
+Deployed project link https://katrinity.github.io/GifTastic/
